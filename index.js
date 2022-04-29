@@ -41,9 +41,10 @@ const readmePrompt = projectData => {
       message: 'How will users use this application?'
     },
     {
-      type: 'input',
+      type: 'list-input',
       name: 'license',
-      message: 'Please enter any licenses for this project:'
+      message: 'Please select a license:',
+      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
     },
     {
       type: 'input',

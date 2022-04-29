@@ -26,6 +26,7 @@ const generateReadme = projectData => {
     - [PROJECT LINK]
 
     ## INSTALLATION INSTRUCTIONS
+    ${projectData.installation}
 
     ## TECHNOLOGIES USED
     ${projectData.technologies}
@@ -43,7 +44,7 @@ const generateReadme = projectData => {
     ${projectData.tests}
 
     ## QUESTIONS
-    * For any questions please reach out to ${projectData.questions}
+    For any questions please reach out to ${projectData.questions}
 
     ## USER STORY
     ${projectData.userStory}

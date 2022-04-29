@@ -25,7 +25,7 @@
     JavaScript,HTML
 
     ## USAGE
-    Run this application from your terminal.  It is a command-line applicaiton.
+    Run this application from your terminal.  It is a command-line application.
 
     ## LICENSES
     You are free to use this application please credit @mcelhatton
