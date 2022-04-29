@@ -1,58 +1,60 @@
 
-    # README GENERATOR
+# GERERATE README APPLICATION
+![badge](https://img.shields.io/badge/license-NPM-brightgreen)
 
-    ## DESCRIPTION:
-    undefined
+## DESCRIPTION:
+Application generates a properly formatted readme file.
 
-    ## TABLE OF CONTENTS
-    - [DESCRIPTION]
-    - [INSTALLATION]
-    - [USAGE]
-    - [LICENSE]
-    - [CONTRIBUTING]
-    - [TESTS]
-    - [QUESTIONS]
-    - [TECHNOLOGIES]
-    - [USER STORY]
-    - [ACCEPTANCE CRITERIA]
-    - [APPLICATION SCREENSHOT / VIDEO]
-    - [CREDITS]
-    - [PROJECT LINK]
+## TABLE OF CONTENTS
+- [DESCRIPTION](##DESCRIPTION)
+- [INSTALLATION](##INSTALLATION)
+- [USAGE](##USAGE)
+- [LICENSE]
+- [CONTRIBUTING]
+- [TESTS]
+- [QUESTIONS]
+- [TECHNOLOGIES]
+- [USER STORY](#user_story)
+- [ACCEPTANCE CRITERIA](#acceptance_criteria)
+- [APPLICATION SCREENSHOT / VIDEO](#application_screenshot)
+- [CREDITS]
+- [PROJECT LINK](#link_to_github_repo)
 
-    ## INSTALLATION INSTRUCTIONS
+## INSTALLATION INSTRUCTIONS
+Application is not installed
 
-    ## TECHNOLOGIES USED
-    JavaScript,HTML
+## TECHNOLOGIES USED
+JavaScript,HTML,CSS,ES6,jQuery,Bootstrap
 
-    ## USAGE
-    Run this application from your terminal.  It is a command-line application.
+## USAGE
+Users will run the application in their terminal.  It is a command-line application.
 
-    ## LICENSES
-    You are free to use this application please credit @mcelhatton
+## LICENSES
+![badge](https://img.shields.io/badge/license-NPM-brightgreen)
+<br />
+This application is covered by the NPM license. 
 
-    ## CONTRIBUTING
-    Reach out to Colin at info@colinworks.com if you want to contribute.
+## CONTRIBUTING
+contact us
 
-    ## TESTS
-    No tests written at this time.
+## TESTS
+no tests
 
-    ## QUESTIONS
-    * For any questions please reach out to info@colinworks.com
+## QUESTIONS
+For any questions please reach out to colin@mdd.io
 
-    ## USER STORY
-    As a developer
+## USER STORY
+As a users....
 
-    ## ACCEPTANCE CRITERIA
-    Given a command-line application
+## ACCEPTANCE CRITERIA
+Given....
 
-    ## APPLICATION SCREENSHOT
-    ![alt='Screenshot of Landing Page'](./assets/readmescreenshot.png)
+## APPLICATION SCREENSHOT
+![alt='Screenshot of Landing Page'](./assets/screenshot.png)
    
+## CREDITS
+na
 
-    ## CREDITS
-    None
-
-    ## LINK TO GITHUB REPOSITORY
-    [README GENERATOR REPO - Click here!]( https://mcelhatton.github.io/readme-generator)
-  
+## LINK TO GITHUB REPO
+[README GENERATOR REPO - Click here!]( https://github.com/mcelhatton/readme-generator)
   

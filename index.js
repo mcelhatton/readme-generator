@@ -25,7 +25,7 @@ const readmePrompt = projectData => {
         if (projectDescription) {
           return true;
         } else {
-          console.log('Please enter a project description:');
+          console.log('Please enter a description:');
           return false;
         }
       }
@@ -41,10 +41,13 @@ const readmePrompt = projectData => {
       message: 'How will users use this application?'
     },
     {
-      type: 'list-input',
+      type: 'list',
       name: 'license',
       message: 'Please select a license:',
-      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+      choices: [
+        'NPM',
+        'Open'
+        ]
     },
     {
       type: 'input',
@@ -110,4 +113,5 @@ readmePrompt()
     fs.writeFile('./README.md', readmeMarkup, err => {
       if (err) throw new Error(err);
     });
+    console.log('Readme file generated.  Check the README.md file to validate results.');
   });

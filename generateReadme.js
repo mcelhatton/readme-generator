@@ -5,63 +5,64 @@ const generateReadme = projectData => {
   }
 
   return `
-    # ${projectData.projectName}
+# ${projectData.projectName}
+![badge](https://img.shields.io/badge/license-${projectData.license}-brightgreen)
 
-    ## DESCRIPTION:
-    ${projectData.description}
+## DESCRIPTION:
+${projectData.projectDescription}
 
-    ## TABLE OF CONTENTS
-    - [DESCRIPTION]
-    - [INSTALLATION]
-    - [USAGE]
-    - [LICENSE]
-    - [CONTRIBUTING]
-    - [TESTS]
-    - [QUESTIONS]
-    - [TECHNOLOGIES]
-    - [USER STORY]
-    - [ACCEPTANCE CRITERIA]
-    - [APPLICATION SCREENSHOT / VIDEO]
-    - [CREDITS]
-    - [PROJECT LINK]
+## TABLE OF CONTENTS
+- [DESCRIPTION](#DESCRIPTION)
+- [INSTALLATION](#INSTALLATION)
+- [USAGE](#USAGE)
+- [LICENSE](#LICENSE)
+- [CONTRIBUTING](#CONTRIBUTING)
+- [TESTS](#TESTS)
+- [QUESTIONS](#QUESTIONS)
+- [TECHNOLOGIES](#TECHNOLOGIES)
+- [USER STORY](#user_story)
+- [ACCEPTANCE CRITERIA](#acceptance_criteria)
+- [APPLICATION SCREENSHOT / VIDEO](#application_screenshot)
+- [CREDITS](#CREDITS)
+- [PROJECT LINK](#link_to_github_repo)
 
-    ## INSTALLATION INSTRUCTIONS
-    ${projectData.installation}
+## INSTALLATION INSTRUCTIONS
+${projectData.installation}
 
-    ## TECHNOLOGIES USED
-    ${projectData.technologies}
+## TECHNOLOGIES USED
+${projectData.technologies}
 
-    ## USAGE
-    ${projectData.usage}
+## USAGE
+${projectData.usage}
 
-    ## LICENSES
-    ${projectData.license}
+## LICENSES
+![badge](https://img.shields.io/badge/license-${projectData.license}-brightgreen)
+<br />
+This application is covered by the ${projectData.license} license. 
 
-    ## CONTRIBUTING
-    ${projectData.contributing}
+## CONTRIBUTING
+${projectData.contributing}
 
-    ## TESTS
-    ${projectData.tests}
+## TESTS
+${projectData.tests}
 
-    ## QUESTIONS
-    For any questions please reach out to ${projectData.questions}
+## QUESTIONS
+For any questions please reach out to ${projectData.questions}
 
-    ## USER STORY
-    ${projectData.userStory}
+## USER STORY
+${projectData.userStory}
 
-    ## ACCEPTANCE CRITERIA
-    ${projectData.acceptanceCriteria}
+## ACCEPTANCE CRITERIA
+${projectData.acceptanceCriteria}
 
-    ## APPLICATION SCREENSHOT
-    ![alt='Screenshot of Landing Page'](./assets/${projectData.screenshotURL})
+## APPLICATION SCREENSHOT
+![alt='Screenshot of Landing Page'](./assets/${projectData.screenshotURL})
    
+## CREDITS
+${projectData.credits}
 
-    ## CREDITS
-    ${projectData.credits}
-
-    ## LINK TO GITHUB REPOSITORY
-    [README GENERATOR REPO - Click here!]( https://mcelhatton.github.io/${projectData.repoLink})
-  
+## LINK TO GITHUB REPO
+[README GENERATOR REPO - Click here!]( https://github.com/mcelhatton/${projectData.repoLink})
   `;
 };
 
