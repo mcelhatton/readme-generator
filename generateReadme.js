@@ -14,54 +14,54 @@ ${projectData.projectDescription}
 ## TABLE OF CONTENTS
 - [DESCRIPTION](#description)
 - [INSTALLATION](#installation)
-- [USAGE](#USAGE)
-- [LICENSE](#LICENSE)
-- [CONTRIBUTING](#CONTRIBUTING)
-- [TESTS](#TESTS)
-- [QUESTIONS](#QUESTIONS)
-- [TECHNOLOGIES](#TECHNOLOGIES)
+- [USAGE](#usage)
+- [LICENSE](#license)
+- [CONTRIBUTING](#contributing)
+- [TESTS](#tests)
+- [QUESTIONS](#questions)
+- [TECHNOLOGIES](#technologies)
 - [USER STORY](#user_story)
 - [ACCEPTANCE CRITERIA](#acceptance_criteria)
 - [APPLICATION SCREENSHOT / VIDEO](#application_screenshot)
-- [CREDITS](#CREDITS)
-- [PROJECT LINK](#link_to_github_repo)
+- [CREDITS](#credits)
+- [PROJECT LINK](#github_repo)
 
-## INSTALLATION INSTRUCTIONS<a name="installation"></a>
+## INSTALLATION INSTRUCTIONS:<a name="installation"></a>
 * ${projectData.installation}
 
-## TECHNOLOGIES USED
+## TECHNOLOGIES USED:<a name="technologies"></a>
 * ${projectData.technologies}
 
-## USAGE
+## USAGE:<a name="usage"></a>
 * ${projectData.usage}
 
-## LICENSES
+## LICENSES:<a name="license"></a>
 ![badge](https://img.shields.io/badge/license-${projectData.license}-brightgreen)
 <br />
 * This application is covered by the ${projectData.license} license. 
 
-## CONTRIBUTING
+## CONTRIBUTING:<a name="contributing"></a>
 * ${projectData.contributing}
 
-## TESTS
+## TESTS:<a name="tests"></a>
 * ${projectData.tests}
 
-## QUESTIONS
+## QUESTIONS:<a name="questions"></a>
 * For any questions please reach out to ${projectData.questions}
 
-## USER STORY
+## USER STORY:<a name="user_story"></a>
 * ${projectData.userStory}
 
-## ACCEPTANCE CRITERIA
+## ACCEPTANCE CRITERIA:<a name="acceptance_criteria"></a>
 * ${projectData.acceptanceCriteria}
 
-## APPLICATION SCREENSHOT
+## APPLICATION SCREENSHOT:<a name="application_screenshot"></a>
 ![alt='Screenshot of Landing Page'](./assets/${projectData.screenshotURL})
    
-## CREDITS
+## CREDITS:<a name="credits"></a>
 * ${projectData.credits}
 
-## LINK TO GITHUB REPO
+## LINK TO GITHUB REPO:<a name="github_repo"></a>
 [README GENERATOR REPO - Click here!]( https://github.com/mcelhatton/${projectData.repoLink})
   `;
 };
