@@ -20,22 +20,22 @@ ${projectData.projectDescription}
 - [TESTS](#tests)
 - [QUESTIONS](#questions)
 - [TECHNOLOGIES](#technologies)
-- [USER STORY](#user_story)
-- [ACCEPTANCE CRITERIA](#acceptance_criteria)
-- [APPLICATION SCREENSHOT / VIDEO](#application_screenshot)
+- [USER STORY](#userstory)
+- [ACCEPTANCE CRITERIA](#acceptance)
+- [APPLICATION SCREENSHOT / VIDEO](#screenshot)
 - [CREDITS](#credits)
-- [PROJECT LINK](#github_repo)
+- [PROJECT LINK](#repo)
 
-## INSTALLATION INSTRUCTIONS:<a name="installation"></a>
+## INSTALLATION:<a name="installation"></a>
 * ${projectData.installation}
 
-## TECHNOLOGIES USED:<a name="technologies"></a>
+## TECHNOLOGIES:<a name="technologies"></a>
 * ${projectData.technologies}
 
 ## USAGE:<a name="usage"></a>
 * ${projectData.usage}
 
-## LICENSES:<a name="license"></a>
+## LICENSE:<a name="license"></a>
 ![badge](https://img.shields.io/badge/license-${projectData.license}-brightgreen)
 <br />
 * This application is covered by the ${projectData.license} license. 
@@ -49,19 +49,19 @@ ${projectData.projectDescription}
 ## QUESTIONS:<a name="questions"></a>
 * For any questions please reach out to ${projectData.questions}
 
-## USER STORY:<a name="user_story"></a>
+## USERSTORY:<a name="userstory"></a>
 * ${projectData.userStory}
 
-## ACCEPTANCE CRITERIA:<a name="acceptance_criteria"></a>
+## ACCEPTANCE CRITERIA:<a name="acceptance"></a>
 * ${projectData.acceptanceCriteria}
 
-## APPLICATION SCREENSHOT:<a name="application_screenshot"></a>
+## APPLICATION SCREENSHOT:<a name="screenshot"></a>
 ![alt='Screenshot of Landing Page'](./assets/${projectData.screenshotURL})
    
 ## CREDITS:<a name="credits"></a>
 * ${projectData.credits}
 
-## LINK TO GITHUB REPO:<a name="github_repo"></a>
+## LINK TO GITHUB REPO:<a name="repo"></a>
 [README GENERATOR REPO - Click here!]( https://github.com/mcelhatton/${projectData.repoLink})
   `;
 };
