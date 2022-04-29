@@ -8,12 +8,12 @@ const generateReadme = projectData => {
 # ${projectData.projectName}
 ![badge](https://img.shields.io/badge/license-${projectData.license}-brightgreen)
 
-## DESCRIPTION:
+## DESCRIPTION:<a name="description"></a>
 ${projectData.projectDescription}
 
 ## TABLE OF CONTENTS
-- [DESCRIPTION](#DESCRIPTION)
-- [INSTALLATION](#INSTALLATION)
+- [DESCRIPTION](#description)
+- [INSTALLATION](#installation)
 - [USAGE](#USAGE)
 - [LICENSE](#LICENSE)
 - [CONTRIBUTING](#CONTRIBUTING)
@@ -26,40 +26,40 @@ ${projectData.projectDescription}
 - [CREDITS](#CREDITS)
 - [PROJECT LINK](#link_to_github_repo)
 
-## INSTALLATION INSTRUCTIONS
-${projectData.installation}
+## INSTALLATION INSTRUCTIONS<a name="installation"></a>
+* ${projectData.installation}
 
 ## TECHNOLOGIES USED
-${projectData.technologies}
+* ${projectData.technologies}
 
 ## USAGE
-${projectData.usage}
+* ${projectData.usage}
 
 ## LICENSES
 ![badge](https://img.shields.io/badge/license-${projectData.license}-brightgreen)
 <br />
-This application is covered by the ${projectData.license} license. 
+* This application is covered by the ${projectData.license} license. 
 
 ## CONTRIBUTING
-${projectData.contributing}
+* ${projectData.contributing}
 
 ## TESTS
-${projectData.tests}
+* ${projectData.tests}
 
 ## QUESTIONS
-For any questions please reach out to ${projectData.questions}
+* For any questions please reach out to ${projectData.questions}
 
 ## USER STORY
-${projectData.userStory}
+* ${projectData.userStory}
 
 ## ACCEPTANCE CRITERIA
-${projectData.acceptanceCriteria}
+* ${projectData.acceptanceCriteria}
 
 ## APPLICATION SCREENSHOT
 ![alt='Screenshot of Landing Page'](./assets/${projectData.screenshotURL})
    
 ## CREDITS
-${projectData.credits}
+* ${projectData.credits}
 
 ## LINK TO GITHUB REPO
 [README GENERATOR REPO - Click here!]( https://github.com/mcelhatton/${projectData.repoLink})
